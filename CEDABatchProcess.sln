@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEDABatchProcess", "CEDABatchProcess\CEDABatchProcess.csproj", "{FD489EF8-E6CA-4533-90B8-F63A188D46CB}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://vicimis20dev:8080/tfs/ceda%20website
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CEDABatchProcess\\CEDABatchProcess.csproj
+		SccProjectName1 = CEDABatchProcess
+		SccLocalPath1 = CEDABatchProcess
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD489EF8-E6CA-4533-90B8-F63A188D46CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD489EF8-E6CA-4533-90B8-F63A188D46CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD489EF8-E6CA-4533-90B8-F63A188D46CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD489EF8-E6CA-4533-90B8-F63A188D46CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
