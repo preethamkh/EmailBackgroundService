@@ -207,6 +207,11 @@ namespace CEDABatchProcess
                                                             message.Bcc.Add(new MailAddress(ConfigurationManager.AppSettings["NSW.From"].ToString()));
                                                             break;
 
+                                                        case "a":
+                                                            message.ReplyToList.Add(new MailAddress(ConfigurationManager.AppSettings["NSW.From"].ToString()));
+                                                            message.Bcc.Add(new MailAddress(ConfigurationManager.AppSettings["NSW.From"].ToString()));
+                                                            break;
+
                                                         case "v":
                                                             message.ReplyToList.Add(new MailAddress(ConfigurationManager.AppSettings["VIC.From"].ToString()));
                                                             message.Bcc.Add(new MailAddress(ConfigurationManager.AppSettings["VIC.From"].ToString()));
