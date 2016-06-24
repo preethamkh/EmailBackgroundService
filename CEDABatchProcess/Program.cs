@@ -117,7 +117,7 @@ namespace CEDABatchProcess
                                 rs.SetExecutionParameters(parameters, "en-us");
                                 String SessionId = rs.ExecutionHeaderValue.ExecutionID;
 
-                                Console.WriteLine("SessionID: {0}", rs.ExecutionHeaderValue.ExecutionID);
+                                //Console.WriteLine("SessionID: {0}", rs.ExecutionHeaderValue.ExecutionID);
 
                                 try
                                 {
